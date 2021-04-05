@@ -1,4 +1,5 @@
 "use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
 var appClass2 = /** @class */ (function () {
     function appClass2(name, age) {
         this.names = name;
@@ -9,6 +10,5 @@ var appClass2 = /** @class */ (function () {
     };
     return appClass2;
 }());
-var firstUser = new appClass2('Habib', 4);
-console.log(firstUser.getInfo());
+exports.default = appClass2;
 //# sourceMappingURL=appClass2.js.map

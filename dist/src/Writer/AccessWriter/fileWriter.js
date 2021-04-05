@@ -5,7 +5,7 @@ var AccessWriter = /** @class */ (function () {
     function AccessWriter() {
     }
     AccessWriter.prototype.write = function (data) {
-        return "" + data;
+        return data + " 2017";
     };
     return AccessWriter;
 }());

@@ -1,6 +1,6 @@
 
 
-class appClass {
+class appClass2 {
     private names: string;
     private ages: number;
 
@@ -13,6 +13,6 @@ class appClass {
     }
 
 }
+export default appClass2;
 
-const firstUser = new appClass('Habib',4);
-console.log(firstUser.getInfo());
+

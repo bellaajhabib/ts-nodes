@@ -10,5 +10,5 @@ var appClass = /** @class */ (function () {
     return appClass;
 }());
 var firstUser = new appClass('Habib', 4);
-firstUser.getInfo();
+console.log(firstUser.getInfo());
 //# sourceMappingURL=appClass.js.map

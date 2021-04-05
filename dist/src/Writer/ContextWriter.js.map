@@ -1,1 +1,1 @@
-{"version":3,"file":"ContextWriter.js","sourceRoot":"","sources":["../../../src/Writer/ContextWriter.ts"],"names":[],"mappings":""}
+{"version":3,"file":"ContextWriter.js","sourceRoot":"","sources":["../../../src/Writer/ContextWriter.ts"],"names":[],"mappings":";;;AAGA;IAGI;IACA,CAAC;IACD,iCAAS,GAAT,UAAU,MAAa;QACpB,IAAI,CAAC,MAAM,GAAG,MAAM,CAAC;IACxB,CAAC;IAED,6BAAK,GAAL,UAAM,KAAa;;QACjB,OAAO,CAAC,GAAG,OAAC,IAAI,CAAC,MAAM,0CAAE,KAAK,CAAC,KAAK,EAAE,CAAA;IACxC,CAAC;IACL,oBAAC;AAAD,CAAC,AAZD,IAYC;AAZa,sCAAa"}

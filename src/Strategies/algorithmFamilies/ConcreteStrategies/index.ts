@@ -1,7 +1,7 @@
 /**
  * The Context defines the interface of interest to clients.
  */
-import {Strategy} from "../Strategy";
+import {Strategy} from "./StrategyInterface /Strategy";
 
 export class Context {
     /**
@@ -31,8 +31,7 @@ export class Context {
      * implementing multiple versions of the algorithm on its own.
      */
     public doSomeBusinessLogic(): void {
-        console.log('Context: Sorting data using the strategy (not sure how it\'ll do it)');
-        const result = this.strategy?.doAlgorithm(['a', 'b', 'c', 'd', 'e']);
+        const result = this.strategy?.doAlgorithm(['A', 'B', 'C']);
         console.log(result?.join(','));
     }
 }

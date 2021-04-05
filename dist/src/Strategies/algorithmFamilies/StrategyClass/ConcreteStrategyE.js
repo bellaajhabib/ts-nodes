@@ -1,13 +1,13 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
-exports.ConcreteStrategyD = void 0;
-var ConcreteStrategyD = /** @class */ (function () {
-    function ConcreteStrategyD() {
+exports.ConcreteStrategyE = void 0;
+var ConcreteStrategyE = /** @class */ (function () {
+    function ConcreteStrategyE() {
     }
-    ConcreteStrategyD.prototype.doAlgorithm = function () {
-        return 10000;
+    ConcreteStrategyE.prototype.doAlgorithm = function () {
+        return 12000;
     };
-    return ConcreteStrategyD;
+    return ConcreteStrategyE;
 }());
-exports.ConcreteStrategyD = ConcreteStrategyD;
+exports.ConcreteStrategyE = ConcreteStrategyE;
 //# sourceMappingURL=ConcreteStrategyE.js.map

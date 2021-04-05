@@ -4,8 +4,8 @@ exports.ConcreteStrategyC = void 0;
 var ConcreteStrategyC = /** @class */ (function () {
     function ConcreteStrategyC() {
     }
-    ConcreteStrategyC.prototype.doAlgorithm = function (data) {
-        return data.concat(['X', 'Y']);
+    ConcreteStrategyC.prototype.doAlgorithm = function () {
+        return 5000;
     };
     return ConcreteStrategyC;
 }());

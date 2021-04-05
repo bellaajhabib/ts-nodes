@@ -21,8 +21,7 @@ var Context = /** @class */ (function () {
      */
     Context.prototype.doSomeBusinessLogic = function () {
         var _a;
-        console.log('Context: Sorting data using the strategy (not sure how it\'ll do it)');
-        var result = (_a = this.strategy) === null || _a === void 0 ? void 0 : _a.doAlgorithm(['a', 'b', 'c', 'd', 'e']);
+        var result = (_a = this.strategy) === null || _a === void 0 ? void 0 : _a.doAlgorithm(['A', 'B', 'C']);
         console.log(result === null || result === void 0 ? void 0 : result.join(','));
     };
     return Context;
